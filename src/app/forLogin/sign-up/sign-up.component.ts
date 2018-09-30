@@ -68,7 +68,7 @@ export class SignUpComponent implements OnInit {
     var success: boolean = this.umService.SGU(payload);
 
     if (!success) {;
-      alert('Header error');
+      alert('Header error'); //showing error window is better than alert I guess.
     }
 
   }
